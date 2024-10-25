@@ -40,7 +40,7 @@ st.title("Adjective Clustering Analysis")
 
 # Display the plot
 st.subheader("Interactive Cluster Plot")
-st.html(plot_html, height=800)
+st.html(plot_html)
 
 # Display LLM outputs (cluster labels and descriptions)
 st.subheader("Cluster Labels and Descriptions")
