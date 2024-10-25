@@ -37,7 +37,7 @@ def load_data():
 fig, cluster_labels, word_cluster_mapping, cluster_descriptions, cluster_words = load_data()
 
 # Display the title
-st.title("Adjective Clustering Analysis")
+st.title("TrueYou Adjective Clustering Analysis")
 
 # Display the plot
 st.subheader("Interactive Cluster Plot")
