@@ -6,7 +6,7 @@ import plotly.io as pio  # Import plotly.io
 
 # Set page configuration
 st.set_page_config(
-    page_title="Adjective Clustering Analysis",
+    page_title="TrueYou Adjective Clustering Analysis",
     layout="wide",
     initial_sidebar_state="expanded"
 )
