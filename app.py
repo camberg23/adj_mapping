@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 import plotly.graph_objects as go
+import plotly.io as pio  # Import plotly.io
 
 # Set page configuration
 st.set_page_config(
@@ -13,23 +14,20 @@ st.set_page_config(
 # Load saved outputs
 @st.cache_resource
 def load_data():
-    # Load the plot from JSON
+    # Load the plot from JSON using plotly.io
     with open('cluster_plot.json', 'r') as f:
-        fig = go.Figure.from_json(f.read())
+        fig = pio.from_json(f.read())
 
-    # Load cluster labels and descriptions
+    # Load other data as before
     with open('cluster_labels.json', 'r') as f:
         cluster_labels = json.load(f)
 
-    # Load word-to-cluster mapping
     with open('word_cluster_mapping.json', 'r') as f:
         word_cluster_mapping = json.load(f)
 
-    # Load cluster descriptions
     with open('cluster_descriptions.json', 'r') as f:
         cluster_descriptions = json.load(f)
 
-    # Load cluster words
     with open('cluster_words.json', 'r') as f:
         cluster_words = json.load(f)
 
