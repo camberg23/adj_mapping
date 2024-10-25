@@ -6,7 +6,7 @@ import plotly.io as pio  # Import plotly.io
 
 # Set page configuration
 st.set_page_config(
-    page_title="Adjective Clusters",
+    page_title="Adjective Clustering Analysis",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -48,7 +48,7 @@ st.subheader("Cluster Labels and Descriptions")
 cluster_info_df = pd.DataFrame.from_dict(cluster_labels, orient='index')
 cluster_info_df.index.name = 'Cluster ID'
 cluster_info_df.reset_index(inplace=True)
-st.dataframe(cluster_info_df)
+st.dataframe(cluster_info_df, use_container_width=True)  # Updated to use full width
 
 # Search feature
 st.sidebar.title("Search Word in Clusters")
@@ -65,18 +65,10 @@ if search_word:
 
         # Show other words in the same cluster
         st.sidebar.markdown(f"**Other words in this cluster:**")
-        # For this, we need to load a mapping from clusters to words
-        @st.cache_resource
-        def load_cluster_words():
-            # Since the full DataFrame is large, we'll load the necessary data from the outputs
-            # We need to have saved this mapping during the analysis
-            with open('cluster_words.json', 'r') as f:
-                cluster_words = json.load(f)
-            return cluster_words
-
-        cluster_words = load_cluster_words()
         words_in_cluster = cluster_words[str(cluster_id)]
-        st.sidebar.write(', '.join(words_in_cluster))
+        # Exclude the searched word
+        other_words = [word for word in words_in_cluster if word.lower() != search_word.lower()]
+        st.sidebar.write(', '.join(other_words))
     else:
         st.sidebar.markdown(f"**'{search_word}'** not found in any cluster.")
 else:
@@ -84,7 +76,21 @@ else:
 
 # Optionally, display the description of a selected cluster
 st.subheader("Explore Clusters")
-selected_cluster_id = st.selectbox("Select a Cluster ID to view details:", cluster_info_df['Cluster ID'])
+
+# Prepare options with cluster IDs and labels
+cluster_info_df['Cluster Option'] = cluster_info_df.apply(
+    lambda row: f"Cluster {row['Cluster ID']}: {row['label']}", axis=1
+)
+cluster_options = cluster_info_df['Cluster Option'].tolist()
+
+# Create a mapping from display text to cluster ID
+cluster_mapping = {option: row['Cluster ID'] for option, row in zip(cluster_options, cluster_info_df.to_dict('records'))}
+
+# Selectbox with formatted cluster options
+selected_option = st.selectbox("Select a Cluster to view details:", cluster_options)
+
+# Get the cluster ID from the selected option
+selected_cluster_id = cluster_mapping[selected_option]
 
 if selected_cluster_id is not None:
     label = cluster_labels[str(selected_cluster_id)]['label']
@@ -93,14 +99,6 @@ if selected_cluster_id is not None:
     st.markdown(f"**Description:** {description}")
 
     # Show words in this cluster
-    # Load cluster words if not already loaded
-    @st.cache_resource
-    def load_cluster_words():
-        with open('cluster_words.json', 'r') as f:
-            cluster_words = json.load(f)
-        return cluster_words
-
-    cluster_words = load_cluster_words()
     words_in_cluster = cluster_words[str(selected_cluster_id)]
     st.markdown("**Words in this cluster:**")
-    st.write(', '.join(words_in_cluster))
+    st.markdown('\n'.join(f"- {word}" for word in words_in_cluster))  # Display words as a bulleted list
