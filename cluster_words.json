@@ -1,0 +1,748 @@
+{
+    "44": [
+        "acceptant",
+        "accommodating",
+        "accepting",
+        "embracing",
+        "initiating",
+        "inviting",
+        "receiving",
+        "receptive"
+    ],
+    "17": [
+        "accessible",
+        "friendly",
+        "just",
+        "kind",
+        "patient",
+        "pleasant",
+        "responsive",
+        "sunny",
+        "warm",
+        "able",
+        "credible",
+        "interested",
+        "nice",
+        "pleasing",
+        "popular",
+        "positive",
+        "soft",
+        "sweet"
+    ],
+    "97": [
+        "accomplished",
+        "capable",
+        "resourceful",
+        "accountable",
+        "competent"
+    ],
+    "22": [
+        "accurate",
+        "concise",
+        "precise",
+        "punctual"
+    ],
+    "25": [
+        "active",
+        "animated",
+        "dynamic",
+        "composed"
+    ],
+    "88": [
+        "adaptable",
+        "adjustable"
+    ],
+    "39": [
+        "adventurous",
+        "ambitious",
+        "enterprising",
+        "venturesome",
+        "venturous",
+        "intrepid",
+        "pioneering"
+    ],
+    "47": [
+        "affable",
+        "agreeable",
+        "amiable",
+        "amicable",
+        "approachable",
+        "genial",
+        "sociable",
+        "amenable",
+        "likeable",
+        "personable"
+    ],
+    "57": [
+        "affectionate",
+        "intimate",
+        "loving",
+        "doting",
+        "lovable"
+    ],
+    "96": [
+        "alert",
+        "aware"
+    ],
+    "49": [
+        "altruistic",
+        "complimentary",
+        "generous",
+        "giving",
+        "magnanimous"
+    ],
+    "28": [
+        "analytical",
+        "methodical",
+        "meticulous",
+        "orderly",
+        "rigorous",
+        "studious",
+        "systematic",
+        "thorough"
+    ],
+    "60": [
+        "appreciative",
+        "grateful",
+        "thankful"
+    ],
+    "20": [
+        "articulate",
+        "communicative",
+        "demonstrative",
+        "expansive",
+        "expressive",
+        "self-expressive"
+    ],
+    "78": [
+        "artistic",
+        "eloquent",
+        "literary",
+        "poetic",
+        "aesthetic",
+        "ethereal",
+        "lyrical",
+        "romantic"
+    ],
+    "93": [
+        "assertive",
+        "forward-looking",
+        "idealistic",
+        "optimistic",
+        "forthcoming",
+        "hopeful",
+        "uplifting"
+    ],
+    "40": [
+        "assured",
+        "certain",
+        "confident",
+        "reassuring"
+    ],
+    "4": [
+        "astute",
+        "canny",
+        "clever",
+        "ingenious",
+        "smart",
+        "sophisticated",
+        "suave",
+        "tactful",
+        "wise",
+        "adroit",
+        "deft",
+        "erudite",
+        "sagacious"
+    ],
+    "26": [
+        "autonomous",
+        "independent",
+        "self-reliant",
+        "self-sacrificing",
+        "self-sufficient",
+        "self-supporting",
+        "self-taught"
+    ],
+    "79": [
+        "beneficent",
+        "benevolent"
+    ],
+    "69": [
+        "big-hearted",
+        "good-hearted",
+        "great-hearted",
+        "kindhearted",
+        "lion-hearted",
+        "soft-hearted",
+        "stout-hearted",
+        "warm-hearted",
+        "righteous"
+    ],
+    "11": [
+        "bold",
+        "deep",
+        "powerful",
+        "strong"
+    ],
+    "18": [
+        "brave",
+        "courageous",
+        "daring",
+        "dauntless",
+        "fearless",
+        "gutsy",
+        "indomitable",
+        "resilient",
+        "hardy"
+    ],
+    "89": [
+        "breezy",
+        "sprightly",
+        "spry",
+        "spunky",
+        "tidy",
+        "spritely"
+    ],
+    "3": [
+        "broad-minded",
+        "conciliatory",
+        "soft-spoken",
+        "tender",
+        "tender-hearted",
+        "tenderminded",
+        "tolerant"
+    ],
+    "52": [
+        "bubbly",
+        "buoyant",
+        "effervescent",
+        "ebullient",
+        "sanguine"
+    ],
+    "36": [
+        "calm",
+        "gentle",
+        "law-abiding",
+        "pacifistic",
+        "peaceful",
+        "peacemaking",
+        "placid",
+        "serene",
+        "calming",
+        "disarming",
+        "pacifying",
+        "soothing",
+        "tranquil"
+    ],
+    "66": [
+        "candid",
+        "honest",
+        "ingenuous",
+        "sincere",
+        "truthful"
+    ],
+    "41": [
+        "careful",
+        "deliberate",
+        "heedful",
+        "planful",
+        "purposeful",
+        "thoughtful",
+        "attentive",
+        "mindful"
+    ],
+    "82": [
+        "cerebral",
+        "intellectual",
+        "logical",
+        "moral",
+        "philosophical",
+        "rational",
+        "spiritual",
+        "verbal",
+        "substantive"
+    ],
+    "85": [
+        "charitable",
+        "philanthropic"
+    ],
+    "9": [
+        "cheerful",
+        "frolicsome",
+        "jaunty",
+        "jolly",
+        "jovial",
+        "lively",
+        "merry",
+        "mirthful",
+        "zestful",
+        "cheery",
+        "colorful",
+        "delightful",
+        "festive",
+        "gleeful",
+        "happy",
+        "joyful",
+        "joyous",
+        "soulful",
+        "youthful"
+    ],
+    "2": [
+        "chipper",
+        "happy-go-lucky",
+        "peppy",
+        "perky",
+        "plucky",
+        "scrappy",
+        "thrifty"
+    ],
+    "92": [
+        "circumspect",
+        "judicious",
+        "prudent",
+        "abstemious"
+    ],
+    "19": [
+        "clear-cut",
+        "forthright",
+        "guileless",
+        "plain-dealing",
+        "straightforward",
+        "upright"
+    ],
+    "0": [
+        "clear-sighted",
+        "eagle-eyed",
+        "farseeing",
+        "foresighted",
+        "observant",
+        "bright-eyed"
+    ],
+    "51": [
+        "clear-thinking",
+        "clearheaded",
+        "cool-headed",
+        "levelheaded",
+        "strong-minded",
+        "clear-eyed"
+    ],
+    "61": [
+        "coherent",
+        "cooperative",
+        "participative"
+    ],
+    "10": [
+        "companionable",
+        "congenial",
+        "conversational",
+        "cordial",
+        "gregarious",
+        "hospitable",
+        "convivial"
+    ],
+    "1": [
+        "compassionate",
+        "consolatory",
+        "empathic",
+        "humane",
+        "humanitarian",
+        "sympathetic",
+        "caring",
+        "empathetic",
+        "humanistic"
+    ],
+    "76": [
+        "comradely",
+        "fraternal",
+        "neighborly",
+        "brotherly",
+        "sisterly"
+    ],
+    "98": [
+        "conscientious",
+        "high-minded",
+        "high-principled",
+        "incorruptible",
+        "principled",
+        "scrupulous"
+    ],
+    "55": [
+        "considerate",
+        "polite",
+        "respectful",
+        "reverent",
+        "honorable",
+        "respectable",
+        "respected"
+    ],
+    "56": [
+        "consistent",
+        "constant",
+        "persistent",
+        "variable"
+    ],
+    "84": [
+        "constructive",
+        "helpful",
+        "instructible",
+        "protective",
+        "handy",
+        "supportive"
+    ],
+    "12": [
+        "contemplative",
+        "deliberative",
+        "meditative"
+    ],
+    "64": [
+        "contented",
+        "delighted",
+        "satisfied"
+    ],
+    "34": [
+        "cosmopolitan",
+        "worldly",
+        "worldly-wise"
+    ],
+    "83": [
+        "courteous",
+        "forbearing",
+        "forgiving",
+        "graceful",
+        "gracious",
+        "kindly",
+        "merciful",
+        "regal"
+    ],
+    "35": [
+        "creative",
+        "imaginative",
+        "innovative",
+        "inventive",
+        "improvising"
+    ],
+    "67": [
+        "cultivated",
+        "cultured",
+        "polished",
+        "self-disciplined",
+        "disciplined"
+    ],
+    "24": [
+        "curious",
+        "inquiring",
+        "inquisitive",
+        "interesting"
+    ],
+    "31": [
+        "debonair",
+        "dignified",
+        "decent",
+        "decorous"
+    ],
+    "80": [
+        "decisive",
+        "determined",
+        "resolute",
+        "resolved"
+    ],
+    "15": [
+        "dedicated",
+        "faithful",
+        "loyal",
+        "stalwart",
+        "steadfast",
+        "devoted"
+    ],
+    "86": [
+        "democratic",
+        "diplomatic",
+        "equalitarian",
+        "progressive",
+        "liberal"
+    ],
+    "23": [
+        "dependable",
+        "reliable",
+        "responsible",
+        "trustworthy",
+        "trusted",
+        "trusting"
+    ],
+    "8": [
+        "diligent",
+        "dutiful",
+        "hardworking",
+        "industrious",
+        "painstaking",
+        "persevering",
+        "assiduous",
+        "expeditious"
+    ],
+    "37": [
+        "discerning",
+        "discreet",
+        "disclosing",
+        "discriminating"
+    ],
+    "33": [
+        "down-to-earth",
+        "easygoing",
+        "imperturbable",
+        "relaxed",
+        "laid-back",
+        "low-key"
+    ],
+    "91": [
+        "eager",
+        "energetic",
+        "enthusiastic",
+        "excited",
+        "impassioned"
+    ],
+    "63": [
+        "earnest",
+        "fervent",
+        "passionate",
+        "tenacious",
+        "zealous",
+        "ardent",
+        "keen"
+    ],
+    "42": [
+        "educable",
+        "irrepressible",
+        "teachable"
+    ],
+    "72": [
+        "efficient",
+        "productive",
+        "effective",
+        "successful"
+    ],
+    "50": [
+        "enlightened",
+        "informed",
+        "insightful",
+        "intuitive",
+        "knowledgeable",
+        "lucid",
+        "perceptive",
+        "profound",
+        "incisive",
+        "perspicacious"
+    ],
+    "30": [
+        "ethical",
+        "objective",
+        "scholarly",
+        "social",
+        "experimenting",
+        "modern",
+        "scientific"
+    ],
+    "70": [
+        "extroverted",
+        "outgoing",
+        "extraverted"
+    ],
+    "13": [
+        "fair-minded",
+        "fair-natured",
+        "reasonable",
+        "equitable",
+        "fair"
+    ],
+    "21": [
+        "flexible",
+        "many-sided",
+        "versatile"
+    ],
+    "54": [
+        "free-minded",
+        "free-thinking",
+        "free",
+        "liberated"
+    ],
+    "94": [
+        "gallant",
+        "heroic",
+        "valiant",
+        "valorous",
+        "admirable",
+        "noble",
+        "virtuous"
+    ],
+    "32": [
+        "good-humored",
+        "good-natured",
+        "good-tempered",
+        "lighthearted"
+    ],
+    "14": [
+        "hearty",
+        "vibrant",
+        "vigorous",
+        "vivacious",
+        "sturdy",
+        "vital"
+    ],
+    "48": [
+        "high-spirited",
+        "spirited"
+    ],
+    "45": [
+        "humble",
+        "modest",
+        "pretenseless",
+        "selfless"
+    ],
+    "16": [
+        "humorous",
+        "jocular",
+        "playful",
+        "whimsical",
+        "comical",
+        "funny",
+        "hilarious"
+    ],
+    "68": [
+        "impartial",
+        "even-handed"
+    ],
+    "46": [
+        "indefatigable",
+        "inexhaustible",
+        "tireless"
+    ],
+    "6": [
+        "introspective",
+        "reflective",
+        "self-examining",
+        "self-revealing",
+        "self-correcting",
+        "self-reflective",
+        "self-regulating"
+    ],
+    "29": [
+        "magnetic",
+        "sparkling",
+        "charismatic",
+        "charming",
+        "chummy"
+    ],
+    "58": [
+        "maternal",
+        "fatherly",
+        "parental",
+        "paternal"
+    ],
+    "43": [
+        "mature"
+    ],
+    "73": [
+        "mild",
+        "temperate",
+        "benign",
+        "mellow"
+    ],
+    "99": [
+        "natural"
+    ],
+    "59": [
+        "nimble-witted",
+        "quick-witted",
+        "sharp-witted",
+        "witty"
+    ],
+    "81": [
+        "obliging",
+        "willing"
+    ],
+    "65": [
+        "open-hearted",
+        "open-minded",
+        "open",
+        "open-ended",
+        "open-faced"
+    ],
+    "38": [
+        "organized",
+        "stable",
+        "steady",
+        "secure",
+        "steadying"
+    ],
+    "53": [
+        "original",
+        "authentic",
+        "genuine"
+    ],
+    "90": [
+        "persuasive",
+        "convincing"
+    ],
+    "95": [
+        "poised",
+        "self-assured",
+        "self-confident",
+        "self-controlled",
+        "self-possessed",
+        "self-respecting",
+        "self-restrained"
+    ],
+    "87": [
+        "practical",
+        "pragmatic",
+        "sensible"
+    ],
+    "7": [
+        "reformative",
+        "visionary",
+        "empowering",
+        "encouraging",
+        "influential",
+        "inspirational",
+        "inspired"
+    ],
+    "77": [
+        "rollicking",
+        "amusing",
+        "engaging",
+        "entertaining",
+        "exciting",
+        "fascinating"
+    ],
+    "62": [
+        "sportsmanlike",
+        "urbane",
+        "well-mannered",
+        "well-spoken",
+        "well-adjusted",
+        "well-liked"
+    ],
+    "5": [
+        "transparent",
+        "fluid",
+        "smooth"
+    ],
+    "75": [
+        "artsy",
+        "eclectic",
+        "gritty",
+        "neat",
+        "quirky"
+    ],
+    "74": [
+        "cultivating",
+        "mentoring",
+        "nurturing"
+    ],
+    "27": [
+        "grandmotherly",
+        "motherly"
+    ],
+    "71": [
+        "sage"
+    ]
+}
