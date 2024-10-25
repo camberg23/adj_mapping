@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import json
 import plotly.graph_objects as go
-from streamlit.components.v1 import components
 
 # Set page configuration
 st.set_page_config(
@@ -14,9 +13,9 @@ st.set_page_config(
 # Load saved outputs
 @st.cache_resource
 def load_data():
-    # Load the plot
-    with open('cluster_plot.html', 'r') as f:
-        plot_html = f.read()
+    # Load the plot from JSON
+    with open('cluster_plot.json', 'r') as f:
+        fig = go.Figure.from_json(f.read())
 
     # Load cluster labels and descriptions
     with open('cluster_labels.json', 'r') as f:
@@ -30,17 +29,21 @@ def load_data():
     with open('cluster_descriptions.json', 'r') as f:
         cluster_descriptions = json.load(f)
 
-    return plot_html, cluster_labels, word_cluster_mapping, cluster_descriptions
+    # Load cluster words
+    with open('cluster_words.json', 'r') as f:
+        cluster_words = json.load(f)
+
+    return fig, cluster_labels, word_cluster_mapping, cluster_descriptions, cluster_words
 
 # Load data
-plot_html, cluster_labels, word_cluster_mapping, cluster_descriptions = load_data()
+fig, cluster_labels, word_cluster_mapping, cluster_descriptions, cluster_words = load_data()
 
 # Display the title
 st.title("Adjective Clustering Analysis")
 
 # Display the plot
 st.subheader("Interactive Cluster Plot")
-st.html(plot_html)
+st.plotly_chart(fig, use_container_width=True)
 
 # Display LLM outputs (cluster labels and descriptions)
 st.subheader("Cluster Labels and Descriptions")
