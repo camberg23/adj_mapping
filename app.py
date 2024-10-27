@@ -43,6 +43,8 @@ st.title("TrueYou Adjective Clustering Analysis")
 st.subheader("Interactive Cluster Plot")
 st.plotly_chart(fig, use_container_width=True)
 
+st.markdown("[See here for interpretation of X and Y axes (first two principal components)](https://docs.google.com/document/d/1yYEmSKJsj-I8pu1CAxYqRpVFbmANXTR6364mMuVNWek/edit?usp=sharing)")  # <-- ADDED
+
 # Display LLM outputs (cluster labels and descriptions)
 st.subheader("Cluster Labels and Descriptions")
 cluster_info_df = pd.DataFrame.from_dict(cluster_labels, orient='index')
