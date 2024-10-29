@@ -62,8 +62,7 @@ if option == "Search by Word":
             st.sidebar.markdown(f"**'{search_word}'** is in **Cluster {cluster_id}: {label}**")
             st.sidebar.markdown(f"**Description:** {description}")
             st.sidebar.markdown(f"**Other words in this cluster:**")
-            st.sidebar.write(', '.join(other_words))
-
+            st.sidebar.markdown('\n'.join(f"- {word}" for word in other_words))
             # Set the cluster ID to highlight
             highlight_cluster_id = cluster_id
         else:
@@ -101,6 +100,12 @@ elif option == "Select Cluster":
     description = cluster_labels[str(selected_cluster_id)]['description']
     words_in_cluster = cluster_words[str(selected_cluster_id)]
 
+    # Display cluster details in the sidebar
+    st.sidebar.markdown(f"### Cluster {selected_cluster_id}: {label}")
+    st.sidebar.markdown(f"**Description:** {description}")
+    st.sidebar.markdown("**Words in this cluster:**")
+    st.sidebar.markdown('\n'.join(f"- {word}" for word in words_in_cluster))
+
 # If no cluster is selected, set highlight_cluster_id to -1
 if highlight_cluster_id is None:
     highlight_cluster_id = -1  # No cluster to highlight
@@ -108,8 +113,6 @@ if highlight_cluster_id is None:
 # Now, we'll create containers to control the layout
 # Create a container for the plot
 plot_container = st.container()
-# Create a container for the cluster details
-details_container = st.container()
 
 # Update the figure to highlight the selected cluster
 def update_figure_with_highlight(fig, plot_df, cluster_id):
@@ -139,23 +142,14 @@ fig_updated = update_figure_with_highlight(fig, plot_df, highlight_cluster_id)
 # Display the plot in the plot_container
 with plot_container:
     st.title("TrueYou Adjective Clustering Analysis")
+    # Place the expander with the cluster labels and descriptions between the title and the plot
+    with st.expander("Show Cluster Labels and Descriptions"):
+        cluster_info_df = pd.DataFrame.from_dict(cluster_labels, orient='index')
+        cluster_info_df.index.name = 'Cluster ID'
+        cluster_info_df.reset_index(inplace=True)
+        cluster_info_df['Cluster ID'] = cluster_info_df['Cluster ID'].astype(int)
+        st.dataframe(cluster_info_df[['Cluster ID', 'label', 'description']], use_container_width=True)
+
     st.subheader("Interactive Cluster Plot")
     st.plotly_chart(fig_updated, use_container_width=True)
     st.markdown("[See here for interpretation of X and Y axes (first two principal components)](https://docs.google.com/document/d/1yYEmSKJsj-I8pu1CAxYqRpVFbmANXTR6364mMuVNWek/edit?usp=sharing)")
-
-# Display cluster details in the details_container
-with details_container:
-    if highlight_cluster_id != -1:
-        st.subheader(f"Cluster {highlight_cluster_id}: {label}")
-        st.markdown(f"**Description:** {description}")
-        st.markdown("**Words in this cluster:**")
-        st.markdown('\n'.join(f"- {word}" for word in words_in_cluster))
-
-# Place the cluster labels and descriptions table inside an expander at the bottom
-with st.expander("Show Cluster Labels and Descriptions"):
-    st.subheader("Cluster Labels and Descriptions")
-    cluster_info_df = pd.DataFrame.from_dict(cluster_labels, orient='index')
-    cluster_info_df.index.name = 'Cluster ID'
-    cluster_info_df.reset_index(inplace=True)
-    cluster_info_df['Cluster ID'] = cluster_info_df['Cluster ID'].astype(int)
-    st.dataframe(cluster_info_df[['Cluster ID', 'label', 'description']], use_container_width=True)
