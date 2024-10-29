@@ -43,7 +43,7 @@ description = ''
 words_in_cluster = []
 
 # Sidebar: Toggle between Search and Cluster Selection
-st.sidebar.title("Explore Clusters")
+st.sidebar.title("TrueYou Adjective Clustering Analysis")
 option = st.sidebar.radio("Choose an option:", ["Search by Word", "Select Cluster"])
 
 if option == "Search by Word":
@@ -141,8 +141,6 @@ fig_updated = update_figure_with_highlight(fig, plot_df, highlight_cluster_id)
 
 # Display the plot in the plot_container
 with plot_container:
-    st.title("TrueYou Adjective Clustering Analysis")
-
     st.plotly_chart(fig_updated, use_container_width=True)
     st.markdown("[See here for interpretation of X and Y axes (first two principal components)](https://docs.google.com/document/d/1yYEmSKJsj-I8pu1CAxYqRpVFbmANXTR6364mMuVNWek/edit?usp=sharing)")
     # Place the expander with the cluster labels and descriptions between the title and the plot
