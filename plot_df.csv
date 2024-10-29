@@ -1,0 +1,101 @@
+pca1,pca2,cluster_id,label,hover_text
+-0.015087219661892397,-0.06755764354562659,0,Perceptive Vision,Cluster 0: Perceptive Vision<br>Words:<br>clear-sighted<br>eagle-eyed<br>farseeing<br>foresighted<br>observant<br>bright-eyed
+0.09476514355655982,0.10401340929886577,1,Empathy and Compassion,Cluster 1: Empathy and Compassion<br>Words:<br>compassionate<br>consolatory<br>empathic<br>humane<br>humanitarian<br>sympathetic<br>caring<br>empathetic<br>humanistic
+0.007799011991954303,-0.09223724383527317,2,Optimistic Resilience,Cluster 2: Optimistic Resilience<br>Words:<br>chipper<br>happy-go-lucky<br>peppy<br>perky<br>plucky<br>scrappy<br>thrifty
+0.06649410576529338,-0.007621396199870265,3,Gentle and Accepting,Cluster 3: Gentle and Accepting<br>Words:<br>broad-minded<br>conciliatory<br>soft-spoken<br>tender<br>tender-hearted<br>tenderminded<br>tolerant
+-0.0416303390425634,-0.0712245819479727,4,Intellectual Acumen,Cluster 4: Intellectual Acumen<br>Words:<br>astute<br>canny<br>clever<br>ingenious<br>smart<br>sophisticated<br>suave<br>tactful<br>wise<br>adroit<br>deft<br>erudite<br>sagacious
+-0.17789597983278208,0.06288992208254601,5,Adaptability and Ease,Cluster 5: Adaptability and Ease<br>Words:<br>transparent<br>fluid<br>smooth
+-0.042306494169048116,0.00951519728882577,6,Self-Awareness and Regulation,Cluster 6: Self-Awareness and Regulation<br>Words:<br>introspective<br>reflective<br>self-examining<br>self-revealing<br>self-correcting<br>self-reflective<br>self-regulating
+0.040356449675823254,0.03650095148022791,7,Transformative Leadership,Cluster 7: Transformative Leadership<br>Words:<br>reformative<br>visionary<br>empowering<br>encouraging<br>influential<br>inspirational<br>inspired
+0.019225156213542594,-0.05699656658067905,8,Diligence and Perseverance,Cluster 8: Diligence and Perseverance<br>Words:<br>diligent<br>dutiful<br>hardworking<br>industrious<br>painstaking<br>persevering<br>assiduous<br>expeditious
+0.06461237293324908,-0.06958848662567942,9,Joyful Enthusiasm,Cluster 9: Joyful Enthusiasm<br>Words:<br>cheerful<br>frolicsome<br>jaunty<br>jolly<br>jovial<br>lively<br>merry<br>mirthful<br>zestful<br>cheery<br>colorful<br>delightful<br>festive<br>gleeful<br>happy<br>joyful<br>joyous<br>soulful<br>youthful
+0.08266176109104942,0.04538780158929898,10,Sociable Warmth,Cluster 10: Sociable Warmth<br>Words:<br>companionable<br>congenial<br>conversational<br>cordial<br>gregarious<br>hospitable<br>convivial
+-0.10577641420885062,0.016829318018385296,11,Strength and Depth,Cluster 11: Strength and Depth<br>Words:<br>bold<br>deep<br>powerful<br>strong
+0.013425131206528777,0.0280771206518687,12,Reflective Thoughtfulness,Cluster 12: Reflective Thoughtfulness<br>Words:<br>contemplative<br>deliberative<br>meditative
+-0.0005040932944765494,0.054106962789963825,13,Fairness and Justice,Cluster 13: Fairness and Justice<br>Words:<br>fair-minded<br>fair-natured<br>reasonable<br>equitable<br>fair
+0.0041854861195799115,-0.07730279544020559,14,Vitality and Energy,Cluster 14: Vitality and Energy<br>Words:<br>hearty<br>vibrant<br>vigorous<br>vivacious<br>sturdy<br>vital
+0.028920285918493195,-0.033134361441609556,15,Loyalty and Commitment,Cluster 15: Loyalty and Commitment<br>Words:<br>dedicated<br>faithful<br>loyal<br>stalwart<br>steadfast<br>devoted
+0.0481654641028016,-0.04283173511143111,16,Humorous Wit,Cluster 16: Humorous Wit<br>Words:<br>humorous<br>jocular<br>playful<br>whimsical<br>comical<br>funny<br>hilarious
+-0.061258233788886396,0.05229886608290352,17,Approachable and Pleasant,Cluster 17: Approachable and Pleasant<br>Words:<br>accessible<br>friendly<br>just<br>kind<br>patient<br>pleasant<br>responsive<br>sunny<br>warm<br>able<br>credible<br>interested<br>nice<br>pleasing<br>popular<br>positive<br>soft<br>sweet
+0.0181212293154637,-0.09674306092130935,18,Courage and Resilience,Cluster 18: Courage and Resilience<br>Words:<br>brave<br>courageous<br>daring<br>dauntless<br>fearless<br>gutsy<br>indomitable<br>resilient<br>hardy
+-0.04508587820726426,-0.020155002737296028,19,Honesty and Integrity,Cluster 19: Honesty and Integrity<br>Words:<br>clear-cut<br>forthright<br>guileless<br>plain-dealing<br>straightforward<br>upright
+-0.0003687145455699184,0.011775531845265908,20,Expressive Communication,Cluster 20: Expressive Communication<br>Words:<br>articulate<br>communicative<br>demonstrative<br>expansive<br>expressive<br>self-expressive
+-0.03864160930200867,-0.037706562595324254,21,Adaptable Versatility,Cluster 21: Adaptable Versatility<br>Words:<br>flexible<br>many-sided<br>versatile
+-0.080423008391375,-0.05053823138574332,22,Precision and Timeliness,Cluster 22: Precision and Timeliness<br>Words:<br>accurate<br>concise<br>precise<br>punctual
+-0.028979961114421325,0.02250894449002516,23,Trust and Reliability,Cluster 23: Trust and Reliability<br>Words:<br>dependable<br>reliable<br>responsible<br>trustworthy<br>trusted<br>trusting
+-0.0026764848539172817,-0.014406277415812742,24,Curiosity and Exploration,Cluster 24: Curiosity and Exploration<br>Words:<br>curious<br>inquiring<br>inquisitive<br>interesting
+-0.14920447722277183,0.048731804522849004,25,Energetic Composure,Cluster 25: Energetic Composure<br>Words:<br>active<br>animated<br>dynamic<br>composed
+-0.050637371808841744,0.004025947506192733,26,Self-Sufficiency and Independence,Cluster 26: Self-Sufficiency and Independence<br>Words:<br>autonomous<br>independent<br>self-reliant<br>self-sacrificing<br>self-sufficient<br>self-supporting<br>self-taught
+0.11700223535661783,0.1672262451438894,27,Nurturing Care,Cluster 27: Nurturing Care<br>Words:<br>grandmotherly<br>motherly
+-0.031120602985423337,-0.0127713670648862,28,Analytical Precision,Cluster 28: Analytical Precision<br>Words:<br>analytical<br>methodical<br>meticulous<br>orderly<br>rigorous<br>studious<br>systematic<br>thorough
+0.03780523853914376,-0.009007703462999454,29,Charismatic Appeal,Cluster 29: Charismatic Appeal<br>Words:<br>magnetic<br>sparkling<br>charismatic<br>charming<br>chummy
+-0.09816394042180521,0.08910922121924601,30,Innovative and Inquisitive,Cluster 30: Innovative and Inquisitive<br>Words:<br>ethical<br>objective<br>scholarly<br>social<br>experimenting<br>modern<br>scientific
+0.023032946877788268,-0.04821901656779099,31,Elegance and Respectability,Cluster 31: Elegance and Respectability<br>Words:<br>debonair<br>dignified<br>decent<br>decorous
+0.08707900541233209,-0.06869103872784872,32,Good-Natured Disposition,Cluster 32: Good-Natured Disposition<br>Words:<br>good-humored<br>good-natured<br>good-tempered<br>lighthearted
+-0.027642308214411288,-0.037036124539288534,33,Calm and Composed,Cluster 33: Calm and Composed<br>Words:<br>down-to-earth<br>easygoing<br>imperturbable<br>relaxed<br>laid-back<br>low-key
+0.013759199748151412,0.006124312397237118,34,Global Perspective,Cluster 34: Global Perspective<br>Words:<br>cosmopolitan<br>worldly<br>worldly-wise
+-0.018892337537152075,-0.012987770220452029,35,Creative Innovation,Cluster 35: Creative Innovation<br>Words:<br>creative<br>imaginative<br>innovative<br>inventive<br>improvising
+0.014079533354030097,0.056117404574123474,36,Peaceful Harmony,Cluster 36: Peaceful Harmony<br>Words:<br>calm<br>gentle<br>law-abiding<br>pacifistic<br>peaceful<br>peacemaking<br>placid<br>serene<br>calming<br>disarming<br>pacifying<br>soothing<br>tranquil
+-0.01849302494859928,0.030680273804685108,37,Discernment and Discretion,Cluster 37: Discernment and Discretion<br>Words:<br>discerning<br>discreet<br>disclosing<br>discriminating
+-0.15975861668140667,0.051924204473705486,38,Stability and Security,Cluster 38: Stability and Security<br>Words:<br>organized<br>stable<br>steady<br>secure<br>steadying
+0.04605953737634513,-0.0944620688827474,39,Adventurous Spirit,Cluster 39: Adventurous Spirit<br>Words:<br>adventurous<br>ambitious<br>enterprising<br>venturesome<br>venturous<br>intrepid<br>pioneering
+-0.024730456955010974,-0.017270995051956728,40,Confidence and Assurance,Cluster 40: Confidence and Assurance<br>Words:<br>assured<br>certain<br>confident<br>reassuring
+-0.005885771773756351,-0.02569114346233852,41,Intentional Mindfulness,Cluster 41: Intentional Mindfulness<br>Words:<br>careful<br>deliberate<br>heedful<br>planful<br>purposeful<br>thoughtful<br>attentive<br>mindful
+-0.04661764999742547,-0.017736518335672274,42,Open-Minded Growth,Cluster 42: Open-Minded Growth<br>Words:<br>educable<br>irrepressible<br>teachable
+-0.11185870174452517,0.02364138327766814,43,Maturity and Wisdom,Cluster 43: Maturity and Wisdom<br>Words:<br>mature
+0.022714823402933203,0.0887703153847424,44,Openness and Acceptance,Cluster 44: Openness and Acceptance<br>Words:<br>acceptant<br>accommodating<br>accepting<br>embracing<br>initiating<br>inviting<br>receiving<br>receptive
+0.04898404865537861,-0.017526596888072437,45,Humility and Selflessness,Cluster 45: Humility and Selflessness<br>Words:<br>humble<br>modest<br>pretenseless<br>selfless
+-0.004847327813752189,-0.0800514451452348,46,Endless Energy,Cluster 46: Endless Energy<br>Words:<br>indefatigable<br>inexhaustible<br>tireless
+0.0651304720083693,0.008533251404379128,47,Friendly and Approachable,Cluster 47: Friendly and Approachable<br>Words:<br>affable<br>agreeable<br>amiable<br>amicable<br>approachable<br>genial<br>sociable<br>amenable<br>likeable<br>personable
+0.06533316044835903,-0.1944552782774038,48,Vivacious Spirit,Cluster 48: Vivacious Spirit<br>Words:<br>high-spirited<br>spirited
+0.11790428631077614,0.06109380153259989,49,Generosity and Kindness,Cluster 49: Generosity and Kindness<br>Words:<br>altruistic<br>complimentary<br>generous<br>giving<br>magnanimous
+-0.012136671305450021,-0.041227090303576894,50,Intellectual Insight,Cluster 50: Intellectual Insight<br>Words:<br>enlightened<br>informed<br>insightful<br>intuitive<br>knowledgeable<br>lucid<br>perceptive<br>profound<br>incisive<br>perspicacious
+-0.046675933642850456,-0.10533025247925355,51,Rational Composure,Cluster 51: Rational Composure<br>Words:<br>clear-thinking<br>clearheaded<br>cool-headed<br>levelheaded<br>strong-minded<br>clear-eyed
+0.040863706941754105,-0.08369260553950093,52,Cheerful Optimism,Cluster 52: Cheerful Optimism<br>Words:<br>bubbly<br>buoyant<br>effervescent<br>ebullient<br>sanguine
+-0.06441788755361937,0.06420106981601445,53,Authenticity and Originality,Cluster 53: Authenticity and Originality<br>Words:<br>original<br>authentic<br>genuine
+-0.04367716150250195,-0.018953761961645808,54,Freedom and Independence,Cluster 54: Freedom and Independence<br>Words:<br>free-minded<br>free-thinking<br>free<br>liberated
+0.052616606737898405,2.352725306969255e-05,55,Respect and Courtesy,Cluster 55: Respect and Courtesy<br>Words:<br>considerate<br>polite<br>respectful<br>reverent<br>honorable<br>respectable<br>respected
+-0.1734085791576089,0.07428128996360131,56,Consistency and Persistence,Cluster 56: Consistency and Persistence<br>Words:<br>consistent<br>constant<br>persistent<br>variable
+0.10984100606977286,0.05423578155885934,57,Affectionate Love,Cluster 57: Affectionate Love<br>Words:<br>affectionate<br>intimate<br>loving<br>doting<br>lovable
+0.06410729910848224,0.19693000023432033,58,Parental Guidance,Cluster 58: Parental Guidance<br>Words:<br>maternal<br>fatherly<br>parental<br>paternal
+0.010865881385405824,-0.17224204363362594,59,Clever Humor,Cluster 59: Clever Humor<br>Words:<br>nimble-witted<br>quick-witted<br>sharp-witted<br>witty
+0.09282336159963571,-0.01860946264749334,60,Gratitude and Appreciation,Cluster 60: Gratitude and Appreciation<br>Words:<br>appreciative<br>grateful<br>thankful
+-0.02011962435734215,0.07989440389245463,61,Collaborative Engagement,Cluster 61: Collaborative Engagement<br>Words:<br>coherent<br>cooperative<br>participative
+-0.008655633414562528,-0.0671008614384442,62,Polished and Sociable,Cluster 62: Polished and Sociable<br>Words:<br>sportsmanlike<br>urbane<br>well-mannered<br>well-spoken<br>well-adjusted<br>well-liked
+0.0424953301029724,-0.08555298159807241,63,Passionate Dedication,Cluster 63: Passionate Dedication<br>Words:<br>earnest<br>fervent<br>passionate<br>tenacious<br>zealous<br>ardent<br>keen
+0.0315664992080367,-0.061869954343649634,64,Contentment and Satisfaction,Cluster 64: Contentment and Satisfaction<br>Words:<br>contented<br>delighted<br>satisfied
+-0.02931981141287878,-0.0006364552826907085,65,Openness and Acceptance,Cluster 65: Openness and Acceptance<br>Words:<br>open-hearted<br>open-minded<br>open<br>open-ended<br>open-faced
+0.026669008376718678,-0.024981111928278295,66,Honesty and Integrity,Cluster 66: Honesty and Integrity<br>Words:<br>candid<br>honest<br>ingenuous<br>sincere<br>truthful
+-0.05377233139574129,-0.04687942900909976,67,Cultivated Discipline,Cluster 67: Cultivated Discipline<br>Words:<br>cultivated<br>cultured<br>polished<br>self-disciplined<br>disciplined
+0.032837822713167625,0.04189220793225387,68,Fairness and Impartiality,Cluster 68: Fairness and Impartiality<br>Words:<br>impartial<br>even-handed
+0.1444319889069921,-0.03588393610833261,69,Heartfelt Courage,Cluster 69: Heartfelt Courage<br>Words:<br>big-hearted<br>good-hearted<br>great-hearted<br>kindhearted<br>lion-hearted<br>soft-hearted<br>stout-hearted<br>warm-hearted<br>righteous
+0.006736413186806123,-0.08317734477663762,70,Sociable Extroversion,Cluster 70: Sociable Extroversion<br>Words:<br>extroverted<br>outgoing<br>extraverted
+-0.11307291497659361,-0.028180451052869933,71,Wisdom and Knowledge,Cluster 71: Wisdom and Knowledge<br>Words:<br>sage
+-0.15200696570543318,0.0635480601399111,72,Efficiency and Success,Cluster 72: Efficiency and Success<br>Words:<br>efficient<br>productive<br>effective<br>successful
+-0.006810648604586818,0.04978586416561247,73,Calm and Gentle,Cluster 73: Calm and Gentle<br>Words:<br>mild<br>temperate<br>benign<br>mellow
+0.013184139607706494,0.14595216921867268,74,Guidance and Support,Cluster 74: Guidance and Support<br>Words:<br>cultivating<br>mentoring<br>nurturing
+-0.028118253706849453,-0.06955768213218534,75,Artistic Uniqueness,Cluster 75: Artistic Uniqueness<br>Words:<br>artsy<br>eclectic<br>gritty<br>neat<br>quirky
+0.1031356562062157,0.10950192278733788,76,Community Bond,Cluster 76: Community Bond<br>Words:<br>comradely<br>fraternal<br>neighborly<br>brotherly<br>sisterly
+0.0339397179817566,-0.003972356948789034,77,Engaging Entertainment,Cluster 77: Engaging Entertainment<br>Words:<br>rollicking<br>amusing<br>engaging<br>entertaining<br>exciting<br>fascinating
+0.027882785841639397,0.01606325750604715,78,Artistic Expression,Cluster 78: Artistic Expression<br>Words:<br>artistic<br>eloquent<br>literary<br>poetic<br>aesthetic<br>ethereal<br>lyrical<br>romantic
+0.2246795387288598,0.1542213588016187,79,Altruistic Kindness,Cluster 79: Altruistic Kindness<br>Words:<br>beneficent<br>benevolent
+-0.0995047488001315,-0.015259337083873198,80,Determined Resolve,Cluster 80: Determined Resolve<br>Words:<br>decisive<br>determined<br>resolute<br>resolved
+0.0707834037841432,0.024919607930413035,81,Cooperative Willingness,Cluster 81: Cooperative Willingness<br>Words:<br>obliging<br>willing
+-0.014011026305975196,0.07069509473435603,82,Intellectual and Philosophical Depth,Cluster 82: Intellectual and Philosophical Depth<br>Words:<br>cerebral<br>intellectual<br>logical<br>moral<br>philosophical<br>rational<br>spiritual<br>verbal<br>substantive
+0.09615417806660893,0.035075976567917666,83,Grace and Forgiveness,Cluster 83: Grace and Forgiveness<br>Words:<br>courteous<br>forbearing<br>forgiving<br>graceful<br>gracious<br>kindly<br>merciful<br>regal
+-0.010070423060114518,0.05030277058732557,84,Practical Assistance,Cluster 84: Practical Assistance<br>Words:<br>constructive<br>helpful<br>instructible<br>protective<br>handy<br>supportive
+0.19972326546469135,0.14415939664603009,85,Generosity and Philanthropy,Cluster 85: Generosity and Philanthropy<br>Words:<br>charitable<br>philanthropic
+0.03040224978486186,0.08340083407600714,86,Progressive Ideals,Cluster 86: Progressive Ideals<br>Words:<br>democratic<br>diplomatic<br>equalitarian<br>progressive<br>liberal
+-0.03250273042453921,0.03214260178968869,87,Practical Realism,Cluster 87: Practical Realism<br>Words:<br>practical<br>pragmatic<br>sensible
+-0.09218238307444701,-0.021273553308749284,88,Flexibility and Adaptation,Cluster 88: Flexibility and Adaptation<br>Words:<br>adaptable<br>adjustable
+-0.005702875312980407,-0.12813523239311914,89,Lively and Energetic,Cluster 89: Lively and Energetic<br>Words:<br>breezy<br>sprightly<br>spry<br>spunky<br>tidy<br>spritely
+0.005489217399002093,0.06050242030130933,90,Persuasive Influence,Cluster 90: Persuasive Influence<br>Words:<br>persuasive<br>convincing
+0.0597353793426597,-0.09760245782521562,91,Passionate Enthusiasm,Cluster 91: Passionate Enthusiasm<br>Words:<br>eager<br>energetic<br>enthusiastic<br>excited<br>impassioned
+0.016762883406897383,-0.046717584431985267,92,Prudent Decision-Making,Cluster 92: Prudent Decision-Making<br>Words:<br>circumspect<br>judicious<br>prudent<br>abstemious
+0.02620180066760119,-0.0023295801896395466,93,Visionary Optimism,Cluster 93: Visionary Optimism<br>Words:<br>assertive<br>forward-looking<br>idealistic<br>optimistic<br>forthcoming<br>hopeful<br>uplifting
+0.08483541894521034,-0.03725573369970482,94,Heroic Virtue,Cluster 94: Heroic Virtue<br>Words:<br>gallant<br>heroic<br>valiant<br>valorous<br>admirable<br>noble<br>virtuous
+-0.036840440113522596,-0.08778921334745093,95,Self-Confidence and Control,Cluster 95: Self-Confidence and Control<br>Words:<br>poised<br>self-assured<br>self-confident<br>self-controlled<br>self-possessed<br>self-respecting<br>self-restrained
+-0.1928920672843994,0.05944251921254837,96,Heightened Awareness,Cluster 96: Heightened Awareness<br>Words:<br>alert<br>aware
+-0.028776703376261755,-0.03939749920620789,97,Competence and Capability,Cluster 97: Competence and Capability<br>Words:<br>accomplished<br>capable<br>resourceful<br>accountable<br>competent
+0.051553920239217954,-0.053310505053775645,98,Moral Integrity,Cluster 98: Moral Integrity<br>Words:<br>conscientious<br>high-minded<br>high-principled<br>incorruptible<br>principled<br>scrupulous
+-0.19477173217895055,0.15981516415952812,99,Authentic Simplicity,Cluster 99: Authentic Simplicity<br>Words:<br>natural
