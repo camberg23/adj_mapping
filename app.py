@@ -142,6 +142,9 @@ fig_updated = update_figure_with_highlight(fig, plot_df, highlight_cluster_id)
 # Display the plot in the plot_container
 with plot_container:
     st.title("TrueYou Adjective Clustering Analysis")
+
+    st.plotly_chart(fig_updated, use_container_width=True)
+    st.markdown("[See here for interpretation of X and Y axes (first two principal components)](https://docs.google.com/document/d/1yYEmSKJsj-I8pu1CAxYqRpVFbmANXTR6364mMuVNWek/edit?usp=sharing)")
     # Place the expander with the cluster labels and descriptions between the title and the plot
     with st.expander("Show Cluster Labels and Descriptions"):
         cluster_info_df = pd.DataFrame.from_dict(cluster_labels, orient='index')
@@ -149,7 +152,3 @@ with plot_container:
         cluster_info_df.reset_index(inplace=True)
         cluster_info_df['Cluster ID'] = cluster_info_df['Cluster ID'].astype(int)
         st.dataframe(cluster_info_df[['Cluster ID', 'label', 'description']], use_container_width=True)
-
-    st.subheader("Interactive Cluster Plot")
-    st.plotly_chart(fig_updated, use_container_width=True)
-    st.markdown("[See here for interpretation of X and Y axes (first two principal components)](https://docs.google.com/document/d/1yYEmSKJsj-I8pu1CAxYqRpVFbmANXTR6364mMuVNWek/edit?usp=sharing)")
