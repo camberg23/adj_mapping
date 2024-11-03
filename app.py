@@ -188,7 +188,7 @@ elif option == "Move Words":
                 f.write(fig.to_json())
 
             # Since the plot is updated, we can refresh the page to reflect changes
-            st.experimental_rerun()
+            st.rerun()
 
 # If no cluster is selected, set highlight_cluster_id to -1
 if highlight_cluster_id is None:
