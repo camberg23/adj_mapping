@@ -16,7 +16,7 @@ st.set_page_config(
 def load_data():
     # Load the plot from JSON using plotly.io
     with open('cluster_plot.json', 'r') as f:
-        fig = pio.from_json(f.read())
+        fig = pio.from_json(f.read(), skip_invalid=True)   # <-- add this flag
 
     # Load other data
     with open('cluster_labels.json', 'r') as f:
